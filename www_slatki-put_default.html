@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Slatki put</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta name="description" content="Slatki put">
+<meta name="keywords" content="Slatki put">
+<meta name="owner" content="D MANAGEMENT d.o.o.">
+<meta name="abstract" content="web site">
+<meta name="language" content="hr">
+<meta name="copyright" content="D MANAGEMENT d.o.o. (C) 2009.">
+<meta name="Generator" content="HorusCMS" >
+<link href="http://www.slatki-put.com/reset.css" rel="styleSheet" type="text/css">
+<link href="http://www.slatki-put.com/dizajn.css" rel="styleSheet" type="text/css">
+
+<!-- JScript -->
+<script type="text/javascript" language="javascript" src="http://www.slatki-put.com/includes/javascripte.js"></script>
+
+<!-- jQuery -->
+	<script type="text/javascript" src="http://www.slatki-put.com/jQuery/jquery-1.2.6.pack.js"></script>
+	<!-- Lightbox plugin-->
+	<script type="text/javascript" src="http://www.slatki-put.com/jQuery/lightbox/jquery.lightbox-0.5.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.slatki-put.com/jQuery/lightbox/jquery.lightbox-0.5.css" media="screen" />
+	<script type="text/javascript">
+	$(function() {
+		$('a[@rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	});
+	</script>
+
+<!--Galleria plugin -->
+	<link href="http://www.slatki-put.com/jQuery/galleria/galleria.css" rel="stylesheet" type="text/css" media="screen">
+	<script type="text/javascript" src="http://www.slatki-put.com/jQuery/galleria/jquery.galleria.js"></script>
+	<script type="text/javascript">
+	jQuery(function($) {
+		$('.gallery_demo_unstyled').addClass('gallery_demo'); // adds new class name to maintain degradability
+		$('ul.gallery_demo').galleria({
+			history   : true, // activates the history object for bookmarking, back-button etc.
+			clickNext : true, // helper for making the image clickable
+			insert    : '#main_image', // the containing selector for our main image
+			onImage   : function(image,caption,thumb) { // let's add some image effects for demonstration purposes
+				
+				// fade in the image & caption
+				/*if(! ($.browser.mozilla && navigator.appVersion.indexOf("Win")!=-1) ) { // FF/Win fades large images terribly slow
+					image.css('display','none').fadeIn(1000);
+				}*/
+				image.css('display','none').fadeIn(1000);	//Always fade images
+				
+				caption.css('display','none').fadeIn(1000);
+				
+				// fetch the thumbnail container
+				var _li = thumb.parents('li');
+				
+				// fade out inactive thumbnail
+				_li.siblings().children('img.selected').fadeTo(500,0.3);
+				
+				// fade in active thumbnail
+				thumb.fadeTo('fast',1).addClass('selected');
+				
+				// add a title for the clickable image
+				image.attr('title','Next image >>');
+			},
+			onThumb : function(thumb) { // thumbnail effects goes here
+				
+				// fetch the thumbnail container
+				var _li = thumb.parents('li');
+				
+				// if thumbnail is active, fade all the way.
+				var _fadeTo = _li.is('.active') ? '1' : '0.3';
+				
+				// fade in the thumbnail when finnished loading
+				thumb.css({display:'none',opacity:_fadeTo}).fadeIn(1500);
+				
+				// hover effects
+				thumb.hover(
+					function() { thumb.fadeTo('fast',1); },
+					function() { _li.not('.active').children('img').fadeTo('fast',0.3); } // don't fade out if the parent is active
+				)
+			}
+		});
+	});
+	</script>
+<style media="screen,projection" type="text/css">
+/* BEGIN DEMO STYLE */
+	*{margin:0;padding:0}
+	qbody{padding:20px;background:white;text-align:center;background:black;color:#bba;font:80%/140% georgia,serif;}
+	qa{color:#348;text-decoration:none;outline:none;}
+	qa:hover{color:#67a;}
+	.caption{font-style:italic;color:#FF9900;}
+	.demo{position:relative;margin-top:2em;}
+	.gallery_demo{width:545px;margin:0 auto;}
+	.gallery_demo li{width:68px;height:50px;border:2px solid #4F8F08;margin: 2px;background:#004800;}
+	.gallery_demo li div{left:240px}
+	.gallery_demo li div .caption{font:italic 0.7em/1.4 georgia,serif;}
+	
+/*	#main_image{margin:0px 0px 10px 0px;width:440px;height:auto;background:none;}
+	#main_image img{margin-bottom:10px;}
+*/	
+	.nav{padding-top:15px;clear:both;font:80% 'helvetica neue',sans-serif;letter-spacing:3px;text-transform:uppercase;}
+	
+	.info{text-align:left;width:500px;margin:30px auto;border-top:1px dotted #221;padding-top:10px;}
+	.info p{margin-top:1.6em;}
+
+.replaced{
+width:580px;
+height:auto;
+border:3px solid #FF9900;
+}
+
+</style>
+</head>
+<body>
+
+<div id="stranica_okvir">
+	<div id="stranica">
+		<div id="gore">
+		  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="960" height="109">
+            <param name="movie" value="gwsm_flash/meni.swf">
+            <param name="quality" value="high">
+            <embed src="http://www.slatki-put.com/gwsm_flash/meni.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="109"></embed>
+	      </object>
+		</div>
+		<div id="header">
+		  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="960" height="261">
+            <param name="movie" value="gwsm_flash/intro.swf">
+            <param name="quality" value="high">
+            <embed src="http://www.slatki-put.com/gwsm_flash/intro.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="261"></embed>
+	      </object>
+		</div>
+		<div id="prijelaz">
+		</div>
+		<div id="sadrzaj" class="clearfix">
+			<div id="side1">
+				<div class="banneri">
+					<a href="http://www.slatki-put.com/index.php?content=Pcelarsko_drustvo_varazdin" target="_self"><img style="border:0px;" src="http://www.slatki-put.com/cms/upload/slike/3334462241477993_pcelarsko_drustvo.gif" alt="Pčelarsko društvo Varaždin" width="233" /></a>				</div>
+				<div class="okvir_zuti">
+					<div class="okvir">
+						<h3 class="naslov"><a href="http://www.slatki-put.com/index.php?content=OPG_Stjepan_Seketin">OPG Stjepan Seketin</a></h3><div class="tekst"><div>
+<div><a href="http://slatki-put.com/cms/upload/slike/8077434566246786_izdvojeno%20seketin.jpg" rel="lightbox" alt="" title=""><img src="http://slatki-put.com/cms/upload/slike/thumbs/200/8077434566246786_izdvojeno%20seketin.jpg" style="border-width: 1px;" /></a></div></div>
+<div align="left">Na posjedu od 3.000 m2 s vidikovcem nalazi se 65 pčelinjih zajednica.
+Tu je i vinograd, voćnjak, vrt,te kuća uređena u tradicijskom stilu.</div></div>					</div>
+				</div>
+				<div class="okvir_zuti_kraj"></div>
+			    <div class="okvir">
+					<p>Popis svih lokacija na putu:</p>
+					<ul><li><a href="http://www.slatki-put.com/index.php?content=Poljoprivreda_i_ugostiteljstvo_CRNKO">Poljoprivreda i ugostiteljstvo CRNKO</a></li><li><a href="http://www.slatki-put.com/index.php?content=OPG_Nada_Vitez_Vitezove_gorice">OPG Nada Vitez (Vitezove gorice)</a></li><li><a href="http://www.slatki-put.com/index.php?content=OPG_Nikola_Vujnovac">OPG Nikola Vujnovac</a></li><li><a href="http://www.slatki-put.com/index.php?content=OPG_Mirjana_Flusek">OPG Mirjana Flusek</a></li><li><a href="http://www.slatki-put.com/index.php?content=OPG_Smiljan_Korac">OPG Smiljan Korać</a></li><li><a href="http://www.slatki-put.com/index.php?content=OPG_Stjepan_Seketin">OPG Stjepan Seketin</a></li></ul>				</div>
+				<div class="okvir_green">
+					<div class="okvir clearfix">
+						<p class="naslov">Galerije slika</p>
+						<a href="http://www.slatki-put.com/index.php?content=galerija"><img src="http://www.slatki-put.com/cms/upload/slike/thumbs/200/7064293266021346_P1040459.JPG" /></a>					</div>
+				</div>
+				<div class="okvir_green_kraj"></div>
+				<div class="okvir_zuti">
+					<div class="okvir">
+						<h3 class="naslov">Zašto med?</a></h3><div class="tekst"><div>
+<div>
+<div><a href="http://slatki-put.com/cms/upload/slike/5275371790057750_pcela.jpg" rel="lightbox" alt="" title=""><img src="http://slatki-put.com/cms/upload/slike/thumbs/200/5275371790057750_pcela.jpg" style="border-width: 1px; float: left;" /></a></div></div></div>
+<div align="left">Med je sladak gust sok &scaron;to ga pčele medarice tvore od nektara koji skupljaju na cvjetovima ili slatkim izlučevinama nekih kukaca. Med je i <b>najsavr&scaron;eniji proizvod prirode</b>, u njemu se nalaze <b>gotovo svi sastojci </b>koji grade ljudski organizam.</div></div>					</div>
+				</div>
+				<div class="okvir_zuti_kraj"></div>
+				
+				<div class="okvir">
+				</div>
+				<p>&nbsp;</p>
+			</div>
+			<div class="uvod"></div>
+			<div id="glavno">
+				<div class="nad_naslov"> > <a href="http://www.slatki-put.com/?content=pocetna">Naslovna</a></div><div class="okvir_full clearfix">	<div class="okvir">		<h2 class="naslov">Rekreacijsko biciklističko edukativna staza kroz prirodu sa mnogo slatkih sadržaja - Slatki put</h2><div class="tekst"><div>
+<div><a href="http://slatki-put.com/cms/upload/slike/9536969924971519_med.jpg" rel="lightbox" alt="" title=""><img src="http://slatki-put.com/cms/upload/slike/thumbs/200/9536969924971519_med.jpg" style="border-width: 1px; float: left;" /></a></div>
+<div align="justify">Trasa <b>SLATKOG PUTA</b> prati obronke brdovitog predjela izmedu Varaždina&nbsp; Jalžabeta i Varaždinskih Toplica. Taj je prostor poznat po vinogradima, &scaron;umama i vidikovcima s kojih se pruža pogled na Varaždin i ravnice uz rijeku Dravu. Na tim obroncima od davnina su prisutni pčelari zbog čistog okoli&scaron;a i zdrave vegetacije.<br /></div></div>
+<div align="justify"><br />Med lokalnih pčelara, kao i ostali proizvodi od meda, vrlo su cijenjeni zbog svoje visoke kakvoće. Dominantno su to cvjetni med, <b>med od bagrema i livadni medovi.</b><br /><br /><b>SLATKI PUT</b> ima polazi&scaron;nu točku na sredini 10 kilometara dugog puta sa parkirali&scaron;tem i mogućno&scaron;ću iznajmljivanja bicikala. Pjesačko-biciklistička staza duga je priblizno 4 km prema jugu (Varaždinskim Toplicama), a prema istoku (Imbriovcu) oko 3 km.<br /></div>
+<div align="justify"><br /></div>
+<div align="justify"><br /></div>
+<div align="justify"><span class="Apple-style-span" style="font-size: 11px; color: rgb(255, 255, 255); font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 18px; ">
+<h2 style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; "><b style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; "><span class="Apple-style-span" style="font-size: small;">1. DANI OTVORENIH VRATA</span></b></h2>
+<div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; "><span class="Apple-style-span" style="font-size: small;"><br style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; " /></span></div>
+<div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; "><span class="Apple-style-span" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; font-family: Verdana, Arial, Helvetica, sans-serif; "><span class="Apple-style-span" style="font-size: small;">26.9.2010. godine održavaju se 1. dani otvorenih vrata Slatkog puta i Jalžabetske vinske ceste.</span></span>
+<div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; font-family: Verdana, Arial, Helvetica, sans-serif; "><span class="Apple-style-span" style="font-size: small;">Pozivamo sve pčelare da od 10-18 h posjete slatke točke OPG Vujnovac, OPG Korač i OPG Fluksek na slatkom putu i provedu dan u ugodnom druženju.&nbsp;</span></div></div></span></div>
+<div align="justify"><span class="Apple-style-span" style="font-size: 11px; color: rgb(255, 255, 255); font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 18px; ">
+<h2 style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; vertical-align: baseline; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; letter-spacing: normal; text-transform: none; "><span class="Apple-style-span" style="font-size: small;"><br /></span></h2></span></div></div><div class="okvir_pol">
+	<div class="okvir">
+		<h2 class="naslov">O varaždinskim pčelarima</h2>
+		<div class="tekst">
+			<div><a href="http://slatki-put.com/cms/upload/slike/4331579331225013_slika3%20Letak-2.jpg" rel="lightbox" alt="" title=""><img src="http://slatki-put.com/cms/upload/slike/thumbs/80/4331579331225013_slika3%20Letak-2.jpg" style="border-width: 1px; float: left;" /></a></div>
+			<div style="text-align: justify;">Pisani dokumenti dokazuju da je pčelarstvo u varaždinskom kraju bilo razvijeno jos u 16. stoljeću. Pčelari Varaždinske županije uz pomoć svojih pčela proizvode visoko- kvalitetan med jer:<br /><br />&bull; imaju dugogodi&scaron;nju tradiciju ...<br /><br /><div align="right"><a href="http://www.slatki-put.com/index.php?content=O_varazdinskim_pcelarima">Opširnije...</a></div></div>
+		</div>
+	</div>	
+</div>
+<div class="okvir_pol">
+	<div class="okvir">
+		<h2 class="naslov">O medu</h2>
+		<div class="tekst">
+			<div><a href="http://slatki-put.com/cms/upload/slike/7194186144053657_slika-%20Letak-1.jpg" rel="lightbox" alt="" title=""><img src="http://slatki-put.com/cms/upload/slike/thumbs/80/7194186144053657_slika-%20Letak-1.jpg" style="border-width: 1px; float: left;" /></a></div>
+			<div align="justify">Med je visokoenergetska hrana i izuzetan lijek. Najpoznatiji proizvod pčela je - med. Med se koristi već milenijima, i kao hrana, i kao lijek. U muzejima Amerike čuva se med za koji je utvrđeno da je star najmanje 2.500 godina &scaron;to govori da se med ne može pokvariti, ima antibakterijska svojstva.<br /><br /><div align="right"><a href="http://www.slatki-put.com/index.php?content=O_medu">Opširnije...</a></div></div>
+		</div>
+	</div>
+</div>
+<div class="karta_flash">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="580" height="755">
+		<param name="movie" value="gwsm_flash/karta.swf">
+		<param name="quality" value="high">
+		<embed src="http://www.slatki-put.com/gwsm_flash/karta.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="580" height="755"></embed>
+	</object>
+</div>	</div></div>			</div>
+		</div>
+	</div>
+</div>
+<div id="nadfooter">
+	<div id="footer">
+	  <div class="projekt">Projekt je financiran sredstvima <a href="http://mps.hr/">Ministarstva poljoprivrede, ribarstva i ruralnog razvoja RH</a> i <a href="http://varazdinska-zupanija.hr">Varaždinske županije</a>.<br>Projekt Pčelarskog društva Varaždin realiziran je u suradnji sa <a href="http://dan.hr">Razvojnom agencijom sjever - Dan d.o.o.</a></div>
+		<div class="izrada">Slatki put  - <a href="http://www.slatki-put.com/index.php?content=impressum"">Impressum</a> | <a href="http://www.slatki-put.com/index.php?content=sitemap">Sitemap</a> | <a href="http://www.addthis.com/bookmark.php">Bookmark &amp; Share </a>  - design by <a href="http://d-management.com">D MANAGEMENT</a> powered by <a href="http://horuscms.com">HorusCMS</a></div>
+	</div>
+</div>
+</body>
+</html>
