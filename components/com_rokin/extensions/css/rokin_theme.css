@@ -1,0 +1,721 @@
+.rokin-navi{
+	font-weight:bold;
+	font-size:110%;
+	
+}
+
+.pw-template{
+  margin:auto;
+	width:100%;
+}
+
+/* used by the image caption */
+#deep-sea .caption{
+ 	border:1px solid #805B24;
+ 	background-color:#e1e1e1;
+}
+
+#deep-sea .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+/* style used by the thumbnails */
+#deep-sea .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+   border:2px solid #A5A5A5;
+   padding:8px; 	
+   background-color:#27354A;
+      
+} 
+
+/* style for the larger images */
+#deep-sea .pwimage-full{ 
+   border:2px solid #A5A5A5; 
+   padding:8px; 	
+   background-color:#27354A;
+   
+   
+} 
+/* style for the image captions */
+#deep-sea .album-caption, #deep-sea .caption{ 
+   border:1px solid #A5A5A5;
+   padding:3px; 
+   background-color:#C5D3DE;
+   font-size: 7pt; width:188px;	
+   margin-top:2px;
+   color:#2E4F7E;	
+}
+
+
+/* the table holding detailed information of the album uses this defition */
+#deep-sea .album-detail{
+	width:550px;	
+	margin-top:10px;
+	border-top:1px solid #A5A5A5;
+	background-image:url(../images/deep-sea.png);
+	background-repeat: repeat-x;
+}
+
+
+#deep-sea .label, #deep-sea .value{		
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+/* used by the label of the detailed information */
+#deep-sea .label{	
+	width:25%;
+	background-image: url(../images/detailed-trnsprt.png) ;
+	background-repeat:repeat;
+	color:#27354A;
+	font-weight:normal;
+	font-size: 8pt;
+	
+}
+
+/* used by the value of the detailed information */
+#deep-sea .value{
+	width:45%;
+	font-size: 9pt;
+	color:#27354A;
+}
+
+#deep-sea .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#deep-sea div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#4F4F4F;
+	border: 1px solid #E3C79D;
+	white-space:nowrap;
+}
+#deep-sea #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #FFFFD4;
+}
+
+#deep-sea #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}
+
+/* ----------------------------------------------------------------------------------------*/
+/* used by the image caption */
+#blood-red .caption{
+ 	border:1px solid #805B24;
+ 	background-color:#e1e1e1;
+}
+
+#blood-red .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+/* style used by the thumbnails */
+#blood-red .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+   border:1px solid #FF0000;
+   padding:8px; 	
+   background-color:#A70909;
+      
+} 
+
+/* style for the larger images */
+#blood-red .pwimage-full{ 
+   border:2px solid #A5A5A5; 
+   padding:8px; 	
+   background-color:#27354A;
+   
+   
+} 
+/* style for the image captions */
+#blood-red .album-caption, #blood-red .caption{ 
+   border:1px solid #A5A5A5;
+   padding:3px; 
+   background-color:#C5D3DE;
+   font-size: 7pt; width:188px;	
+   margin-top:2px;	
+   color:#2E4F7E;
+}
+
+
+/* the table holding detailed information of the album uses this defition */
+#blood-red .album-detail{
+	width:550px;	
+	margin-top:10px;
+	border-top:1px solid #A5A5A5;
+	background-image:url(../images/blood-red.png);
+	background-repeat: repeat-x;
+}
+
+
+#blood-red .label, #blood-red .value{		
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+/* used by the label of the detailed information */
+#blood-red .label{	
+	width:25%;
+	background-image: url(../images/detailed-trnsprt.png) ;
+	background-repeat:repeat;
+	color:#5E0505;
+	font-weight:normal;
+	font-size: 8pt;
+	
+}
+
+/* used by the value of the detailed information */
+#blood-red .value{
+	width:45%;
+	color:#5E0505;
+	font-size: 9pt;
+}
+
+#blood-red .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#blood-red div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#4F4F4F;
+	border: 1px solid #E3C79D;
+	white-space:nowrap;
+}
+#blood-red #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #BD0A0A;
+}
+
+#blood-red #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}
+
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* used by the image caption */
+#forrest-green .caption{
+ 	border:1px solid #805B24;
+ 	background-color:#e1e1e1;
+}
+
+#forrest-green .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+/* style used by the thumbnails */
+#forrest-green .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+   border:1px solid #5F801E;
+   padding:8px; 	
+   background-color:#C4E385;
+      
+} 
+
+/* style for the larger images */
+#forrest-green .pwimage-full{ 
+   border:2px solid #5F801E; 
+   padding:8px; 	
+   background-color:#C4E385;
+   
+   
+} 
+/* style for the image captions */
+#forrest-green .album-caption, #forrest-green .caption{ 
+   border:1px solid #A5A5A5;
+   padding:3px; 
+   background-color:#C5D3DE;
+   font-size: 7pt; width:188px;	
+   margin-top:2px;	
+   color:#2E4F7E;
+}
+
+
+/* the table holding detailed information of the album uses this defition */
+#forrest-green .album-detail{
+	width:550px;	
+	margin-top:10px;
+	border-top:1px solid #A5A5A5;
+	background-image:url(../images/forrest-green.png);
+	background-repeat: repeat-x;
+}
+
+#forrest-green .label, #forrest-green .value{	
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+/* used by the label of the detailed information */
+#forrest-green .label{	
+	width:25%;
+	background-image: url(../images/detailed-trnsprt.png) ;
+	background-repeat:repeat;
+	color:#074D03;
+	font-weight:normal;
+	font-size: 8pt;
+}
+
+/* used by the value of the detailed information */
+#forrest-green .value{
+	width:45%;
+	color:#074D03;
+	font-size: 9pt;
+}
+
+#forrest-green .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#forrest-green div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#4F4F4F;
+	border: 1px solid #E3C79D;
+	white-space:nowrap;
+}
+#forrest-green #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #FFFFD4;
+}
+
+#forrest-green #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* used by the image caption */
+#dutch-orange .caption{
+ 	border:1px solid #805B24;
+ 	background-color:#e1e1e1;
+}
+
+#dutch-orange .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+/* style used by the thumbnails */
+#dutch-orange .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+   border:1px solid #F6F20A;
+   padding:8px; 	
+   background-color:#D65606;
+      
+} 
+
+/* style for the larger images */
+#dutch-orange .pwimage-full{ 
+   border:2px solid #F6F20A; 
+   padding:8px; 	
+   background-color:#D65606;
+   
+   
+} 
+/* style for the image captions */
+#dutch-orange .album-caption, #dutch-orange .caption{ 
+   border:1px solid #F6F20A;
+   padding:3px; 
+   background-color:#D65606;
+   font-size: 7pt; width:188px;	
+   margin-top:2px;	
+   color:#2E4F7E;
+}
+
+
+/* the table holding detailed information of the album useion */
+#dutch-orange .album-detail{
+	width:550px;	
+	margin-top:10px;
+	border-top:1px solid #A5A5A5;
+	background-image:url(../images/dutch-orange.png);
+	background-repeat: repeat-x;
+}
+
+#dutch-orange .label, #dutch-orange .value{		
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+/* used by the label of the detailed information */
+#dutch-orange .label{	
+	width:25%;
+	background-image: url(../images/detailed-trnsprt.png) ;
+	background-repeat:repeat;
+	color:#953A05;
+	font-weight:normal;
+	font-size: 8pt;
+}
+
+/* used by the value of the detailed information */
+#dutch-orange .value{
+	width:45%;
+	color:#953A05;
+	font-size: 9pt;
+}
+
+#dutch-orange .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#dutch-orange div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#4F4F4F;
+	border: 1px solid #E3C79D;
+	white-space:nowrap;
+}
+#dutch-orange #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #D65606;
+}
+
+#dutch-orange #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* used by the image caption */
+#vacation .caption{
+ 	border:1px solid #805B24;
+ 	background-color:#e1e1e1;
+}
+
+#vacation .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+/* style used by the thumbnails */
+#vacation .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+   border:1px solid #D3A12D;
+   padding:8px; 	
+   background-color:#D5B078;
+      
+} 
+
+/* style for the larger images */
+#vacation .pwimage-full{ 
+   border:2px solid #D3A12D; 
+   padding:8px; 	
+   background-color:#D5B078;
+   
+   
+} 
+/* style for the image captions */
+#vacation .album-caption, #vacation .caption{ 
+   border:1px solid #F6F20A;
+   padding:3px; 
+   background-color:#D5B078;
+   font-size: 7pt; width:188px;	
+   margin-top:2px;	
+   color:#2E4F7E;
+}
+
+
+/* the table holding detailed information of the album uses this defition */
+#vacation .album-detail{
+	width:100%;	
+	margin-top:10px;
+	border-top:1px solid #A5A5A5;
+	background-image:url(../images/vacation.png);
+	background-repeat: repeat-y;
+}
+
+#vacation .label, #vacation .value{		
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+/* used by the label of the detailed information */
+#vacation .label{	
+	width:25%;
+	/* background-image: url(../images/detailed-trnsprt.png) ; */
+	background-repeat:repeat;
+	color:#953A05;
+	font-weight:normal;
+	font-size: 8pt;
+}
+
+/* used by the value of the detailed information */
+#vacation .value{
+	width:45%;
+	color:#953A05;
+	font-size: 9pt;
+}
+
+#vacation .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#vacation div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#4F4F4F;
+	border: 1px solid #E3C79D;
+	white-space:nowrap;
+}
+#vacation #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #D65606;
+}
+
+#vacation #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* used by the image caption */
+#lite *{	
+	font-family:Arial,Verdana,Helvetica;
+}
+
+#lite table.pw-template{
+	width: 100%;	
+}
+
+/* style used by the thumbnails */
+#lite .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+} 
+
+/* style for the larger images */
+#lite .pwimage-full{ 
+   border:2px solid #cccccc; 
+   padding:8px; 	
+   background-color:#D65606;
+   
+   
+} 
+/* style for the image captions */
+#lite .album-caption, #lite .caption{ 
+  	font-size: 20px;
+ 	text-align: center;
+}
+
+
+/* the table holding detailed information of the album uses this defition */
+#lite .album-detail{
+	width:550px;	
+	margin-top:10px;
+	border-top:1px solid #cccccc;
+	/* background-image:url(../images/dutch-orange.png); */
+	background-repeat: repeat-x;
+}
+
+#lite .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+#lite .label, #lite .value{		
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+/* used by the label of the detailed information */
+#lite .label{	
+	width:25%;
+	background-image: url(../images/detailed-trnsprt.png) ;
+	background-repeat:repeat;
+	color:#953A05;
+	font-weight:normal;
+	font-size: 8pt;
+}
+
+/* used by the value of the detailed information */
+#lite .value{
+	width:45%;
+	color:#953A05;
+	font-size: 9pt;
+}
+
+#lite .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#lite div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#4F4F4F;
+	border: 1px solid #cccccc;
+	white-space:nowrap;
+}
+#lite #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #cccccc;
+}
+
+#lite #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}
+
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* used by the image caption */
+#fancy *{	
+	font-family:Arial,Verdana,Helvetica;
+	color: #cccccc;	
+}
+
+#fancy table.pw-template{
+	width: 100%;
+	
+	background-image: url(../images/vector1_opc45.png) ;
+}
+
+/* style used by the thumbnails */
+#fancy .pwimages{
+   margin-left:auto;
+   margin-right:auto;	
+   border:1px solid #eeeeee;
+   padding:8px; 	
+   background-color:#cccccc;	
+} 
+
+#fancy .rokin-pathway .pw_album{
+	color: #cccccc;	
+}
+
+/* style for the larger images */
+#fancy .pwimage-full{ 
+   border:2px solid #cccccc; 
+   padding:8px; 	
+   background-color:#D65606;
+   
+   
+} 
+/* style for the image captions */
+#fancy .album-caption, #fancy .caption{ 
+  	font-size: 20px;
+ 	text-align: center;
+ 	color:#cccccc;
+}
+
+
+/* the table holding detailed information of the album uses this defition */
+#fancy .album-detail{
+	width:550px;	
+	margin-top:10px;
+	/* border-top:1px solid #cccccc; */
+	/* background-image:url(../images/dutch-orange.png); */
+	background-repeat: repeat-x;
+}
+
+#fancy .label, #fancy .value{		
+	padding:3px;
+	color:#FFEDED;
+	vertical-align:top;
+}
+
+#fancy .img-placeholder{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center;
+}
+
+/* used by the label of the detailed information */
+#fancy .label{	
+	width:25%;
+	background-image: url(../images/detailed-trnsprt.png) ;
+	background-repeat:repeat;
+	color:#CCCCCC;
+	font-weight:normal;
+	font-size: 8pt;
+}
+
+/* used by the value of the detailed information */
+#fancy .value{
+	width:45%;
+	color:#CCCCCC;
+	font-size: 9pt;
+}
+
+#fancy .thumb-holder{
+	padding:5px;
+	background-color:none;	
+}
+/* the tooltip in the map */
+#fancy div.tooltip{
+	background-color:#cccccc;
+	padding:5px;
+	color:#cccccc;
+	border: 1px solid #cccccc;
+	white-space:nowrap;
+}
+#fancy #map{
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid #cccccc;
+}
+
+#fancy #image_map{
+	margin-left:auto;
+	margin-right:auto;
+	/* display:none;*/
+}

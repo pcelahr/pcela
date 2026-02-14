@@ -1,0 +1,165 @@
+
+#pw3d form.form{
+	margin : 10px;
+	padding : 10px;
+  	width:680px;  
+  	border: 1px solid #aaa;  
+  	background: url(../img/themes/pw3d/buttons/border_bottom.png) repeat-x bottom center;  	
+}
+
+#pw3d .table{	
+ 	border-left: 1px solid #aaa;  
+  	border-right: 1px solid #aaa;  
+  	border-top: 1px solid #aaa;    	  	
+	margin-bottom : 7px;
+	margin-left:10px;
+}
+
+#pw3d .td{	
+	padding-left : 10px;
+	padding-top : 5px;	
+}
+
+#pw3d .fancy-row{		 
+	position:relative;		
+	padding: 0xp;
+  	border-bottom: 1px solid #aaa;  
+  	background: url(../img/themes/pw3d/buttons/border_bottom.png) repeat-x bottom center;  	
+}
+
+#pw3d .fancy-result-outline{
+	border: 1px solid #aaa;
+	overflow:visible;
+	white-space:nowrap;	
+  	float:left;
+  	margin-left:10px;  	
+  	
+}
+
+#pw3d .fancy-result-inline{
+	width: 100%;
+	padding-top:10px;
+  	padding-bottom:10px;  	  	
+  	float:left;
+  	background: url(../img/themes/pw3d/buttons/border_bottom.png) repeat-x bottom center;  
+}
+
+
+#pw3d form.form label{
+	white-space:nowrap;
+	padding-left:5px;
+	padding-right:10px;
+	line-height:25px;		
+}
+
+
+#pw3d form.form .label{
+	vertical-align: top;
+	padding-top:12px;
+}
+
+
+
+#pw3d form.form input, form.form textarea{							
+	border:#8C8C90 1px solid;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;	
+	padding-bottom:2px;	
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+
+#pw3d form.form select{
+	border:#8C8C90 1px solid;
+	padding-left:3px;	
+	margin-top:3px;
+}
+
+
+#pw3d input.short,  textarea.short{
+	width:100px;
+}
+
+
+#pw3d select.short{
+	width:100px;
+}
+
+
+#pw3d input.medium, textarea.medium{
+	width:200px;
+}
+
+
+#pw3d select.medium{
+	width:212px;
+}
+
+
+#pw3d input.long, select.long, textarea.long{
+	width:300px;
+}
+
+	
+
+#pw3d form.form fieldset{
+	margin-top: 3px;				
+	border:solid 0px;
+	padding:5px;
+	border:0px;
+}
+
+
+#pw3d form.form fieldset li {	
+	padding-top: 3px;				
+	list-style:none;
+	
+}
+
+
+#pw3d a.button {
+	height:25px !important;
+	width:160px !important;
+	margin:0px	!important;
+	background-image: url(../img/themes/pw3d/buttons/button.png);
+	background-repeat: no-repeat;
+	
+	color:#073559;
+	font-weight:bold;
+	
+	display:block;
+	padding:0px !important;
+	padding-top:7px !important;
+	text-align:center;
+	text-decoration:none;
+	border:0px; /* reset any border */
+}
+
+#pw3d a.button:hover{
+	padding-top:7px;
+	background-position: 0px -32px;
+}
+
+
+/* menu specifics */
+.mainlevel{
+	list-style:none;
+}
+
+.mainlevel-hor{
+	list-style:none;
+		
+}
+
+.mainlevel-hor li{
+	padding-left:4px;
+}
+
+.mainlevel-hor li a{
+	display:block;
+	float:left;
+	padding-left:8px;
+	padding-right:8px;
+}

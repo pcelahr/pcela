@@ -1,0 +1,541 @@
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	background-image: url(../images/pozadina.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-color: #248189;
+	margin-bottom: 0px;
+	z-index: 9999;
+	background-attachment: fixed;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#okvir {
+	height: auto;
+	width: 997px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	border: 5px solid #d3d3d3;
+	background-color: #FFF;
+}
+#header {
+	background-image: url(../images/header.jpg);
+	height: 175px;
+	width: 997px;
+}
+#menu {
+	background-image: url(../images/menu.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+	height: 47px;
+}
+#header .pcela {
+	background-image: url(../images/pcela-trans.png);
+	height: 85px;
+	width: 79px;
+	float: left;
+	margin-top: 90px;
+	margin-left: -27px;
+}
+#menu ul li {
+	display: inline;
+}
+#menu ul li a {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #a84e0c;
+	text-decoration: none;
+	padding-top: 14px;
+	padding-right: 10px;
+	padding-bottom: 19px;
+	padding-left: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#menu ul li a:hover {
+	background-image: url(../images/meni-hover.jpg);
+	background-repeat: repeat-x;
+	color: #FFF;
+}
+#content .lijevo {
+	width: 190px;
+	float: left;
+}
+#content .desno {
+	float: right;
+	width: 190px;
+}
+#content .sredina {
+	width: 580px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.clear {
+	clear: both;
+}
+#content {
+	padding: 8px;
+}
+.putanja {
+	background-color: #fdae31;
+	font-size: 12px;
+	color: #FFF;
+	padding: 5px;
+	line-height: 16px;
+}
+
+.content-box {
+	background-image: url(../images/top-izbor.jpg);
+	background-repeat: no-repeat;
+	background-color: #ffe1b0;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #FEAE31;
+	margin-bottom: 15px;
+}
+.content-box tr td {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffc973;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.content-box tr td a {
+	font-size: 12px;
+	color: #a84e0c;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+.content-box tr td a:hover {
+	color: #e9741e;
+	background-color: #ffcf80;
+}
+.content-box tr {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.content-box h3 {
+	padding-top: 5px;
+	padding-left: 20px;
+	color: #FFF;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+.componentheading {
+	color:#9e9e9e;
+	text-transform:uppercase;
+	font-size:11px;
+	border-bottom:1px dashed #e0e0e0;
+}
+table.blog td div {
+    border: 1px solid #c9dab1;
+    background-color: #dcf5c7;
+	margin:10px 0px 10px 0px;
+	padding:10px;
+}
+table.blog div {
+    border: 1px solid #c9dab1;
+    background-color: #dcf5c7;
+	margin:10px 0px 10px 0px;
+	padding:10px;
+}
+.novost {
+	color: #485648;
+	font-size: 12px;
+	line-height: 18px;
+}
+.novost p {
+	margin-top:5px;
+}
+.article_seperator {
+	display:none;
+}
+.novost a:link, .novost a:visited {
+	color: #588e2a;
+	text-decoration:none;
+}
+.novost a:hover {
+	text-decoration:underline;
+}
+.novost img {
+	/*float: left;*/
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: 3px solid #50930f;
+}
+.contentpaneopen tbody tr td img{
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	
+}
+
+.contentpaneopen tbody tr td p{
+        position: relative;
+        display: inline-block;
+}
+
+
+
+.contentheading {
+	font-size: 13px;
+	font-weight: bold;
+	color: #588e2a;
+	text-transform:uppercase;
+	padding:2px 0px 0px 0px;
+}
+.contentheading a:link, .contentheading a:visited {
+	font-size: 13px;
+	font-weight: bold;
+	color: #588e2a;
+	text-decoration:none;
+}
+.contentheading a:hover {
+	text-decoration:underline;
+}
+.small, .createdate, .modifydate {
+	color: #588e2a;
+	font-size: 11px;
+}
+.casopis {
+	margin-top: 10px;
+	padding: 0px;
+}
+.casopis a {
+	font-size: 12px;
+	color: #B84E0D;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	line-height: 18px;
+	padding: 0px;
+        text-align: center;
+}
+
+.potpis {
+	text-align: center;
+	width: 100%;
+	padding-top: 33px;
+        padding-bottom: 25px;
+}
+.potpis a {
+	font-size: 12px;
+	color: #4A8706;
+	text-decoration: none;
+}
+.potpis p {
+	font-size: 12px;
+	padding-top: 8px;
+}
+.trazilica {
+	float: right;
+	width: 250px;
+	margin-right: 28px;
+	margin-top: 85px;
+	height: 30px;
+}
+.buttonheading img {
+	border:0;
+}
+.putanja a:link, .putanja a:visited {
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.putanja a:hover {
+	color:#535353;
+}
+.sectiontableentry1 img, .sectiontableentry2 img {
+	border:0;
+}
+table.pollstableborder {
+border: none;
+padding: 0;
+width: 100%;
+text-align: left;
+}
+table.pollstableborder img {
+vertical-align: baseline;
+}
+table.pollstableborder td {
+padding: 2px !important;
+}
+table.pollstableborder tr.sectiontableentry1 td {
+border: none;
+background: #e3e3e3;
+}
+table.pollstableborder tr.sectiontableentry2 td {
+border: none;
+}
+.sectiontableheader {
+line-height: 29px;
+padding: 0 10px;
+
+}
+tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry1, td.sectiontableentry2 {
+height: 20px;
+padding: 0 10px;
+line-height: 29px;
+}
+tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry1, td.sectiontableentry2 {
+border-bottom: 1px solid #fff;
+}
+tr.sectiontableentry1 td, td.sectiontableentry1 {
+background-color: #e4e4e4;
+color:#666666;
+}
+tr.sectiontableentry2 td, td.sectiontableentry2 {
+background-color: #f0f0f0;
+color:#666666;
+}
+tr.sectiontableentry1:hover td, tr.sectiontableentry2:hover td {
+background-color: #c3c3c3;
+color:#666666;
+}
+table.pollstableborder td.sectiontableentry1,
+table.pollstableborder td.sectiontableentry2, 
+table.pollstableborder tr.sectiontableentry1 td,
+table.pollstableborder tr.sectiontableentry2 td,
+table.pollstableborder_red td.sectiontableentry1_red,
+table.pollstableborder_red td.sectiontableentry2_red, 
+table.pollstableborder_red tr.sectiontableentry1_red td,
+table.pollstableborder_red tr.sectiontableentry2_red td{
+height: 20px;
+padding-left: 5px;
+text-align:left;
+padding-right: 10px;
+line-height: 18px;
+margin-bottom:5px;
+background: none;
+border:0;
+}
+.sectiontableheader {
+	background:#FDAE31;
+}
+.search .inputbox {
+	background-image: url(../images/pretraga.jpg);
+	background-repeat: repeat-x;
+	height: 22px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	width: 170px;
+	float: left;
+	padding-left: 10px;
+	margin: 0px;
+	padding-top: 10px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.search .button {
+	background-image: url(../images/kreni.jpg);
+	background-position: left top;
+	height: 32px;
+	margin: 0px;
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FFF;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+.pagenav_prev, .pagenav_next{
+	float: left;
+	text-align: center;
+	margin-bottom: 35px;
+        margin-top: 25px;
+	width: 300px;
+}
+.searchintro{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.contentpaneopen tbody tr td div div table tbody tr td img, {width: 150px;}
+.contentpaneopen tbody tr td div div table tbody tr td .tekst{
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	float: left;
+	margin-top: 5px;
+	width: 350px;
+}
+.contentpaneopen tbody tr td div div table tbody tr td{ 
+        text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	float: left;
+}
+
+.contentpaneopen tbody tr td div hr{
+	background-color: #093;
+	padding: 0px;
+	height: 2px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.moduletable table tbody{
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+/* IE6 css POPRAVKA */
+
+/* ============================================= */
+
+
+/* add display:inline to floated elements */
+html>body #header .pcela,
+html>body #menu ul li a,
+html>body #content .lijevo,
+html>body #content .desno,
+html>body #content .sredina,
+html>body .novost img,
+html>body .trazilica,
+html>body .search .inputbox,
+html>body .search .button,
+html>body .pagenav_prev, html>body .pagenav_next,
+html>body .contentpaneopen tbody tr td div div table tbody tr td .tekst,
+html>body .contentpaneopen tbody tr td div div table tbody tr td,
+* html #header .pcela,
+* html #menu ul li a,
+* html #content .lijevo,
+* html #content .desno,
+* html #content .sredina,
+* html .novost img,
+* html .trazilica,
+* html .search .inputbox,
+* html .search .button,
+* html .pagenav_prev, html>body .pagenav_next,
+* html .contentpaneopen tbody tr td div div table tbody tr td .tekst,
+* html .contentpaneopen tbody tr td div div table tbody tr td {display:inline;}
+* html .search .inputbox{ width: 150px; }
+
+/* fix negative margins */
+html>body #header .pcela {position:relative; zoom:1;}
+* html #header .pcela {position:relative; zoom:1;}
+
+.contentpaneopen tbody tr{
+	width: 575px;
+}
+.katastar {
+        width: 180px;
+        hight: 45px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.katastar img{
+	border: 4px solid #50930F;
+}
+div.mosimage {
+  
+}
+.mosimage img{ 
+   width: 555px;
+}
+
+.mosimage {
+  margin: 5px
+}
+
+.mosimage_caption {
+  clear:both;
+  margin-top: 2px;
+  background: #efefef;
+  padding: 1px 2px;
+  color: #666;
+  font-size: 10px;
+  border-top: 1px solid #cccccc;
+}
+
+/* Reklmae_gornja_crta */
+.moduletable-content-box-reklame {
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #FEAE31;
+}
+.module-content-box-reklame {
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #FEAE31;
+}

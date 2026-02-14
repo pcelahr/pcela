@@ -1,0 +1,158 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+
+table.cstp-tabular-header {
+	font-family: Arial;
+	font-size: 10pt;
+}
+table.cstp-tabular-header td {
+	background-color:#ECE9D8;
+	padding:2px 0 3px; 
+}
+
+ /* table title */
+table.cstp-tabular-header td.table_caption { padding-left:8px; font-weight:bold; color:#296284; font-size:14px; }
+
+ /* paging device */
+table.cstp-tabular-header td.table_paging { 
+	text-align:right; vertical-align:middle; font-weight:bold; color:#296284; line-height:1.6em; padding-right:8px;
+}
+table.cstp-tabular-header .table_paging .separator { background:url(../img/icons/pager_separator.gif) no-repeat 0 50%; margin:0 11px; }
+table.cstp-tabular-header .table_paging input,
+table.cstp-tabular-header .table_paging select { vertical-align:middle; margin:0 4px; font-weight:bold; color:#D5FC9E; }
+table.cstp-tabular-header .table_paging input { width:20px; text-align:center; }
+table.cstp-tabular-header .table_paging select /* rows per page */ { width:45px; }
+table.cstp-tabular-header .table_paging a img { vertical-align:middle; }
+table.cstp-tabular-header .table_paging input { padding:1px 4px; }
+table.cstp-tabular-header a.selector span.prev{
+	 display:table-cell;
+	 
+	 background: url(../img/icons/ico_goprevious.gif) no-repeat 0px 5px;	 	 
+	 
+	 height:12px;
+	 width:16px;	 
+}
+table.cstp-tabular-header a.selector span.next{
+	 background: url(../img/icons/ico_gonext.gif) no-repeat 0px 5px;	 
+	 height:12px;
+	 width:16px;
+	 display:table-cell;
+}
+
+table.cstp-tabular-header td.table-paging { 
+	text-align:right; 
+	vertical-align:middle; 
+	font-weight:bold; 
+	color:#296284; 
+	line-height:1.6em; 
+	padding-right:8px;		
+	border-bottom:1px solid #ACA899;
+	border-right:1px solid #ACA899;
+	border-top :1px solid #ffffff;
+	border-left :1px solid #ffffff;
+}
+table.cstp-tabular-header .table-paging .separator { background:url(../img/icons/pager_separator.gif) no-repeat 0 50%; margin:0 11px; }
+table.cstp-tabular-header .table-paging input,
+table.cstp-tabular-header .table-paging select { vertical-align:middle; margin:0 4px; font-weight:bold; color:#296284; }
+table.cstp-tabular-header .table-paging input { width:20px; text-align:center; }
+table.cstp-tabular-header .table-paging select /* rows per page */ { width:45px; }
+table.cstp-tabular-header .table-paging a img { vertical-align:middle; }
+table.cstp-tabular-header .table-paging input { padding:1px 4px; }
+
+
+/*----------------------------------------------------------------------------
+  TABULAR DATA
+  ----------------------------------------------------------------------------*/
+
+/* table data : row & cell formatting (defaults) */
+.cstp-tabular{
+	font-family: Arial;
+	font-size: 8pt;
+}
+.cstp-tabular thead th.checkbox, 
+.cstp-tabular tbody td.checkbox { text-align:center; } /* cell with just checkbox */
+
+.cstp-tabular tbody td { padding:4px 8px 4px; line-height:1.1em;  }
+ /* :: ... column heading highlight used by script */
+.cstp-tabular tr.hover td { background-color: #eeeeee; }
+
+thead th.checkbox, tbody td.checkbox { text-align:center; padding:0; } /* cell with just checkbox */
+.cstp-tabular input.check { margin:0; height:13px; margin-right:3px; }
+
+ /* data alignment */
+.cstp-tabular td{
+	border-bottom:1px solid #ECE9D8;
+	border-right:1px solid #ECE9D8;	
+}
+.cstp-tabular td.date { text-align:right; }
+.cstp-tabular td.number { text-align:right; }
+.cstp-tabular td.rownum{
+	width: 50px;
+	padding-right: 10px;
+	text-align:right; 
+	background-color:#ECE9D8;
+	border-bottom:1px solid #ACA899;
+	border-top :1px solid #ffffff;
+	border-right:1px solid #ACA899;
+}
+
+/* COLUMN HEADINGS */
+ 
+ /* :: ... default padding etc */
+.col-headings th { padding:4px 8px 2px; text-align:center; font-weight:bold; 
+	/*
+	border-bottom:1px solid #66AB05; background: #C1FB6F;
+	border-top:1px solid #66AB05;
+	border-right:1px solid #E0FDB7;
+	*/	
+	padding-right: 10px;
+	text-align:right; 
+	background-color:#ECE9D8;
+	border-bottom:1px solid #ACA899;
+	border-right:1px solid #ACA899;
+	border-top :1px solid #ffffff;
+	border-left :1px solid #ffffff;
+}
+
+	
+
+/* :: ... special case for the accounts heading */
+.col-headings th#data-accounts-head { padding-left:15px; padding-right:15px; text-align:left; }
+ /* :: ... default text & link colours */
+.col-headings th, .col-headings th a { color:#296284; }
+.col-headings th a { display:block; }
+.col-headings th a:hover { text-decoration:underline; }
+ /* :: ... column heading highlight used by script */
+.col-headings th.hover { background-color: #eaf1f8; }
+ /* :: ... column being sorted with arrow indicating sorting mode */
+.col-headings th.active, .col-headings th.active a { background-color:#003366; color:#fff; }
+
+/*.col-headings th.active div { background:url(../img/ico/col_sort_down.gif) no-repeat 100% 0; }*/
+.col-headings th.sortasc a { padding-right: 10px; background:url(../img/tables/col_sort_down.gif) no-repeat right 50%; }
+.col-headings th.sortdesc a { padding-right: 10px; background:url(../img/tables/col_sort_up.gif) no-repeat right 50%; }
+
+
+ /* :: ... group headers in column headings (remove the border between multiple col heading rows) */
+.col-headings th.merged { border-bottom:0; color:#000; }
+
+ /* :: ... styles for text alignment */
+.col-headings th.aleft { text-align:left; }
+.col-headings th.aright { text-align:right; }
+
+.col-headings th.number, .col-headings th.date { text-align:right; }
+
+
+/* FIXED COLUMN */
+
+ /* vertical separation style */
+.cstp-tabular td.col-master,
+.cstp-tabular th.col-master,
+.cstp-tabular-header td.col-master {
+	background-image:url(../img/tables/fixedcol_separation.gif); background-repeat:repeat-y; background-position:100% 0;
+	border-right:none;
+	font-weight:bold;
+}
+.cstp-tabular-header td.col-master { padding-left:8px;padding-right:8px; } /* same padding as 'col-headings th' to align */
